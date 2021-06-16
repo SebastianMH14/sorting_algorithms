@@ -33,7 +33,12 @@ void insertion_sort_list(listint_t **list)
 		}
 	}
 }
-
+/**
+ *swap - change nodes
+ *@a: struct
+ *@b: struct
+ *Return: void
+ */
 void swap(listint_t *a, listint_t *b)
 {
 	if (a->prev)

@@ -39,14 +39,14 @@ int partition(int *array, int first, int last, size_t size)
 			q++;
 			if (q != i)
 			{
-				swap(&array[q], &array[i]);
+				swa_p(&array[q], &array[i]);
 				print_array(array, size);
 			}
 		}
 	}
 	if (array[q + 1] > array[last])
 	{
-		swap(&array[q + 1], &array[last]);
+		swa_p(&array[q + 1], &array[last]);
 		print_array(array, size);
 	}
 	return (q + 1);
@@ -79,7 +79,7 @@ void recursion(int *array, int first, int last, size_t size)
  *
  *Return: void
  */
-void _swap(int *a, int *b)
+void swa_p(int *a, int *b)
 {
 	int tmp;
 

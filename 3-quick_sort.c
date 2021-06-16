@@ -73,7 +73,7 @@ void recursion(int *array, int first, int last, size_t size)
 }
 
 /**
- * _swap - change position
+ *swa_p - change position
  *@a: array
  *@b: size
  *
